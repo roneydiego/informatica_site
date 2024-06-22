@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RD Serviços de Informática</title>
+    <link rel="icon" href="images/futureIcon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="home" class="container">
+    <div class="nav">
+      <a href="index.html"><img class="business-logo" src="images/icons/logotipo.jpg" alt=""></a>
+      <ul class="nav-bar">
+        <img class="close-btn" src="images/icons/close-btn.svg" alt="">
+        <li><a class="item-nav" href="#home">Início <img class="nav-down-arrow" src="images/icons/down-arrow.svg" alt=""></a></li>
+        <li><a class="item-nav" href="#services">Serviços <img class="nav-down-arrow" src="images/icons/down-arrow.svg" alt=""></a></li>
+        <li><a class="item-nav" href="#about">Quem Somos <img class="nav-down-arrow" src="images/icons/down-arrow.svg" alt=""></a></li>
+        <li><a class="item-nav" href="#cotacao">Contato <img class="nav-down-arrow" src="images/icons/down-arrow.svg" alt=""></a></li>
+      </ul>
+      <div class="flex-vertical">
+        <a href="#cotacao"><button class="contact-btn btn cota">FAZER SOLICITAÇÃO</button></a>
+        <img class="menu-btn" src="images/icons/icons8-menu.svg" alt="">
+      </div>
+    </div>
+    <div class="hero">
+      <h1>manutenção e suporte de computadores</h1>
+      <p class="brief-description">Oferecemos serviços de formatação e backup, limpeza, troca de peças e mais!</p>
+      <div>
+        <a href="#cotacao"><button class="contact-btn btn">Contato</button></a>
+        <a href="#services"><button class="saiba-mais-btn btn">Saiba mais</button></a>
+      </div>
+      <!-- <div class="data-stats">
+        <div>      
+          <h2><span class="number-update">250</span><span class="business-color"> +</span></h2>
+          <p>Profissionais Ativos</p>
+        </div>
+        <div>      
+          <h2><span class="number-update">10</span><span class="business-color"> +</span></h2>
+          <p>Órgãos Públicos</p>
+        </div>
+        <div>      
+          <h2><span class="number-update">1000</span><span class="business-color"> +</span></h2>
+          <p>Clientes Satisfeitos</p>
+        </div>
+      </div> -->
+    </div>
+  </section>
+
+  <section id="services" class="">
+    <div class="blank-space">
+      <div class="container">
+        <h2 class="section-description services-description"><hr class="hrVariant">Serviços</h2>
+        <p class="title-description">Conheça os nossos serviços</p>
+      </div>
+    </div>
+    <div class="cards container">
+      <div class="service-card">
+        <img class="img-service" src="images/cards/formatacao_padrao.jpg" alt="">
+        <div class="serv">
+          <h3 class="service-description">Formatação Padrão</h3>
+          <ul>
+            <li>Formatação completa.</li>
+            <li>Instalação do Windows ou outro sistema operacional desejado.</li>
+            <li>Ativação Vitalícia do Windows.</li>
+            <li>Atualização completa do sistema operacional e de drivers.</li>
+            <li>Instalação de antivírus.</li>
+          </ul>
+          <div>
+            <h3 class="price">R$ 99,90</h3>
+            <a href="#cotacao" class="cotacao-btn">SOLICITAR</a>
+          </div>
+        </div> 
+      </div>
+      <div class="service-card">
+        <img class="img-service" src="images/cards/backup.jpg" alt="">
+        <div class="serv">
+          <h3 class="service-description">Formatação com Backup</h3>
+          <ul>
+            <li>Inclui todos os serviços da Formatação Padrão.</li>
+            <li>Backup de todos os arquivos pessoais existentes na sua máquina. O que consiste em salvá-los e, após a formatação, adicioná-los novamente à sua máquina formatada e atualizada.</li>
+            <li>Levamos a sua privacidade a sério. Seguimos os princípios da LGPD (Lei Geral de Proteção aos Dados).</li>
+          </ul>
+          <div>
+            <h3 class="price">R$ 129,90</h3>
+            <a href="#cotacao" class="cotacao-btn">SOLICITAR</a>
+          </div>
+          
+        </div>
+      </div>
+      <div class="service-card">
+        <img class="img-service" src="images/cards/limpeza.jpg" alt="">
+        <div class="serv">
+          <h3 class="service-description">Limpeza Completa</h3>
+          <ul>
+            <li>Escovação da placa-mãe.</li>
+            <li>Limpeza de Memórias RAM.</li>
+            <li>Limpeza completa da carcaça/gabinete.</li>
+            <li>Limpeza de conectores.</li>
+            <li>Troca de pasta térmica do processador.</li>
+            <li>Limpeza de Fans/Ventoinhas.</li>
+            <li>Organização de cabos.</li>
+          </ul>
+          <div>
+            <h3 class="price">R$ 149,90</h3>
+            <a href="#cotacao" class="cotacao-btn">SOLICITAR</a>
+          </div>
+        </div>
+      </div>
+      <div class="service-card">
+        <img class="img-service" src="images/cards/servico_completo.png" alt="">
+        <div class="serv">
+          <h3 class="service-description">Serviço Completo</h3>
+          <ul>
+            <li>Formatação com ou sem Backup</li>
+            <li>Limpeza Completa</li>
+          </ul>
+          <div>
+            <h3 class="price">R$ 249,90</h3>
+            <a href="#cotacao" class="cotacao-btn">SOLICITAR</a>
+          </div>
+        </div>
+      </div>
+      <div class="service-card">
+        <img class="img-service" src="images/cards/instalacao.jpg" alt="">
+        <div class="serv">
+          <h3 class="service-description">Instalação de Peças</h3>
+          <ul>
+            <li>Instalação de memórias RAM.</li>
+            <li>Instalação de HDs e SSDs (SATA ou NVMe).</li>
+            <li>Instalação de Fonte.</li>
+            <li>Instalação de Processador.</li>
+            <li>Instalação de Fans/Ventoinhas.</li>
+            <li>Substituição de placa-mãe.</li>
+          </ul>
+          <div>
+            <h3 class="price">R$ 34,90<p>/por peça</p></h3>
+            <a href="#cotacao" class="cotacao-btn">SOLICITAR</a>
+          </div>      
+        </div>
+      </div>
+      <div class="service-card">
+        <img class="img-service" src="images/cards/montagem_completa.jpg" alt="">
+        <div class="serv">
+          <h3 class="service-description">Montagem Completa</h3>
+          <ul>
+            <li>Recebemos as suas peças novas e o gabinete, e então montamos todas elas!</li>
+            <li>Serviço padronizado, considerando boas condutas de organização.</li>
+          </ul>
+          <div>
+            <h3 class="price">R$ 199,90</h3>
+            <a href="#cotacao" class="cotacao-btn">SOLICITAR</a>
+          </div>
+        </div>
+      </div>
+  </section>
+  
+  <section id="down-arrow">
+    <div class="down-arrow"></div>
+  </section>
+
+  <section id="about" class="container">
+    <div>
+      <h2 class="section-description"><hr class="hrVariant">Quem somos?</h2>
+      <p class="title-description">Conheça mais sobre nós:</p>
+      <p>Olá! Atualmente a equipe é composta por mim, o criador deste site, Roney Diego. Com 3 anos de experiência no mercado de manutenção de computadores, eu resolvi criar esta iniciativa para oferecer soluções de manutenção de forma moderna, simplista, intuitiva e direta ao ponto, sem obscuridades. Possuo curso completo de nível técnico em Manutenção e Suporte de computadores. Atualmente curso Ciência da Computação.</p>
+    </div>
+    <hr>
+    <div class="about-cards"> 
+      <div class="card">
+        <button class="btn-card"><h3>Nossa Missão</h3><img class="right-arrow" src="images/icons/reshot-icon-arrow-chevron-right-WDGHUKQ634.svg" alt=""></button>
+        <div class="description">
+          <div class="decoration-card">
+            <img class="about-icon" src="images/icons/achivement-business-mission-svgrepo-com.svg" alt="">
+            <hr class="card-hr">
+            <div class="completing-div"></div>
+          </div>
+          <p>Oferecer soluções rápidas, modernas e acessíveis.</p>
+        </div>
+      </div>
+      <div class="card">
+        <button class="btn-card"><h3>Nossa Visão</h3><img class="right-arrow" src="images/icons/reshot-icon-arrow-chevron-right-WDGHUKQ634.svg" alt=""></button>
+        <div class="description">
+          <div class="decoration-card">
+            <img class="about-icon" src="images/icons/archery-objective-svgrepo-com.svg" alt="">
+            <hr class="card-hr">
+            <div class="completing-div"></div>
+          </div>
+          <p>Ser referência de confiabilidade, qualidade e transparência.</p>
+        </div>
+      </div>
+      <div class="card">
+        <button class="btn-card"><h3>Valores</h3><img class="right-arrow" src="images/icons/reshot-icon-arrow-chevron-right-WDGHUKQ634.svg" alt=""></button>
+        <div class="description">
+          <div class="decoration-card">
+            <img class="about-icon" src="images/icons/handshake-deal-svgrepo-com.svg" alt="">
+            <hr class="card-hr">
+            <div class="completing-div"></div>
+          </div>
+          <ul>
+            <li>Profissionalismo</li>
+            <li>Qualidade de serviços</li>
+            <li>Respeito e segurança com os dados de clientes</li>
+            <li>Seguir os princípios de segurança da LGPD</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section id="clients" class="container">
+    <div>
+      <h2 class="section-description white-h2"><hr class="hrVariant">Nossos Clientes</h2>
+      <p class="title-description">Deixamos o nosso trabalho falar por si mesmo. Veja o que eles têm a dizer</p>
+    </div>
+    <div class="testimonials">
+      <div class="testifier">
+        <img src="images/icons/pexels-gustavo-fring-4173168.jpg" alt="">
+        <h3>O melhor serviço de terceirização!</h3>
+        <p>Profissionais qualificados, serviço descomplicado, atendimento ágil. Future é tudo de bom!</p>
+        <footer>José Almeida, CEO da Doces e Festas</footer>
+      </div>
+      <div class="testifier">
+        <img src="images/icons/pexels-christina-morillo-1181424.jpg" alt="">
+        <h3>Sem palavras.</h3>
+        <p>Quando falam em Terceirizada, sempre recomendo a Future. O serviço deles é o melhor do mercado!</p>
+        <footer>Camila Lopes, Ifood</footer>
+      </div>
+    </div>
+    <hr class="big-hr">
+    <div class="clients-img">
+      <img src="images/icons/sefazse.png" alt="">
+      <img src="images/icons/ifs.png" alt="">
+      <img src="images/icons/correios.png" alt="">
+      <img src="images/icons/sergipetec1.png" alt="">
+      <img src="images/icons/smtt.png" alt="">
+      <img src="images/icons/tjse.png" alt="">
+    </div>
+  </section> -->
+
+  <section id="cotacao" class="container">
+    <div class="form-div">
+      <h3>FAÇA SUA SOLICITAÇÃO</h3>
+      <form class="cotacao-form" action="https://usebasin.com/f/d79c92b91631" method="post">
+        <label for="name">Nome Completo*</label>
+        <input type="text" name="name" id="name" required>
+        <label for="email">E-mail*</label>
+        <input type="email" name="email" id="email" required>
+        <label for="tel">Telefone*</label>
+        <input type="tel" name="tel" id="tel" placeholder="(__) _____-____" maxlength="13" required>
+
+        <label for="servico">Serviço*</label>
+        <select name="servico" id="servico" required>
+          <option value="">--</option>
+          <option value="f_padrao">Formatação Padrão</option>
+          <option value="f_backup">Formatação com Backup</option>
+          <option value="limpeza_completa">Limpeza Completa</option>
+          <option value="servico_completo">Serviço Completo</option>
+          <option value="i_pecas">Instalação de Peças</option>
+          <option value="montagem_completa">Montagem Completa</option>
+          <option value="outro">Outro</option>
+        </select>
+        <div class="outroServ">
+          <label for="outroServ">Outro? Descreva:</label><br>
+          <input name="outroServ" type="text" id="outroServ">
+        </div>
+        <hr>
+        <!-- <label for="ch">Carga Horária</label>
+        <select name="ch" id="ch" required>
+          <option value=4>4h</option>
+          <option value=6>6h</option>
+          <option value=8>8h</option>
+        </select> -->
+
+        <!-- <label for="escala">Escala</label>
+        <select name="escala" id="escala" required>
+          <option value="5x2">SEGUNDA À SEXTA (5x2)</option>
+          <option value="6x1">SEGUNDA À SÁBADO (6x1)</option>
+          <option value="12x36">SEGUNDA À DOMINGO (12x36)</option>
+        </select> -->
+        
+        <label for="obs">Observações</label>
+        <textarea name="obs" id="obs" cols="30" rows="5"></textarea>
+
+        <button class="cotacao-submit hoveranim" type="submit">enviar solicitação</button>
+        <p>A nossa equipe entrará em contato com você o quanto antes.</p>
+      </form>
+    </div>
+    <div class="contact-info">
+      <h3>CONTATO</h3>
+      <h4>Endereço</h4>
+      <p>R. Lídio dos Santos, 6, Santos Dumont - Aracaju/SE</p>
+
+      <h4>Telefone</h4>
+      <p>(79) 98179-2520</p>
+
+      <h4>E-mail</h4>
+      <p>servicosdeinformaticard@gmail.com</p>
+
+      <h4>Horário de funcionamento</h4>
+      <p>Seg. à Sex. | 9:00 às 18:00</p>
+      <div class="social-media-logos">
+        <a href="https://www.instagram.com/"><img src="images/icons/instagram.svg" alt=""></a>
+        <a href="https://www.linkedin.com/"><img src="images/icons/linkedin.svg" alt=""></a>
+        <a href="https://www.facebook.com/"><img src="images/icons/facebook.svg" alt=""></a>
+      </div>
+
+      <h4>Nossa Localização</h4>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d377.6434108448326!2d-37.077960410609776!3d-10.89194439335365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1719078098965!5m2!1spt-BR!2sbr" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <section id="footer" class="container">
+    <footer>
+      <div>
+        <div class="logo-and-menu">
+          <a href="index.html"><img class="future-icon" src="images/icons/logotipo.jpg" alt=""></a>
+          <ul class="menu-footer">
+            <li><a class="item-nav" href="#home">Início</a></li>
+            <li><a class="item-nav"href="#services">Serviços</a></li>
+            <li><a class="item-nav" href="#about">Quem Somos</a></li>
+            <li><a class="item-nav" href="#cotacao">Contato</a></li>
+          </ul>
+        </div>
+        <div class="social-media-logos">
+          <p>Siga-nos:</p>
+          <a href="https://www.instagram.com/"><img src="images/icons/instagram.svg" alt=""></a>
+          <a href="https://www.linkedin.com/"><img src="images/icons/linkedin.svg" alt=""></a>
+          <a href="https://www.facebook.com/"><img src="images/icons/facebook.svg" alt=""></a>
+        </div>
+      </div>
+      <hr class="big-hr">
+      <div class="copyright-and-developer">
+        <p>RD | Serviços de Informática © 2024</p>
+        <a href="https://roneydiego.github.io/portfolio/"><p class="developer">Desenvolvido por Roney Diego</p></a>
+      </div>
+    </footer>
+  </section>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+  <script src="index.js"></script>
+</body>
+</html>
